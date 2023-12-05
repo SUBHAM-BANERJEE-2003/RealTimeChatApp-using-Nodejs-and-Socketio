@@ -31,5 +31,5 @@ io.on('connection', socket => {
 
 app.use(router)
 
-
+//listen for the input
 server.listen(PORT, () => console.log(`Server has started on port ${PORT}`));
